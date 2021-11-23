@@ -1,16 +1,25 @@
 body {
     background-color: black;
 }
+img {
+    display: none;
+}
 .conteiner{
     color: blanchedalmond;
     font-size: 75px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
     .conteiner{
         font-size: 25px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        margin-top: 45%;
     }
 }
