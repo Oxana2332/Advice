@@ -1,10 +1,16 @@
 body {
     background-color: black;
-    color: blanchedalmond;
-    font-size: 75px;
 }
 .conteiner{
+    color: blanchedalmond;
+    font-size: 75px;
     text-align: center;
+    margin-top: 15%;
 }
-#url {
-    width: 60%;}
+
+
+@media screen and (max-width: 767px) {
+    .conteiner{
+        font-size: 25px;
+    }
+}
